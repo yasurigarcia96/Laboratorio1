@@ -1,0 +1,25 @@
+﻿@page
+@model Laboratorio.web.Pages.EliminarMateriaModel
+@{
+}
+<form method="post">
+    <input type="hidden" asp-for="Materia.Id" />
+    <div asp-validation-summary="ModelOnly"></div>
+    <div class="form-group">
+        <label asp-for="Materia.Codigo"></label>
+        <input type="text" class="form-control" asp-for="Materia.Codigo" placeholder="Ingrese su codigo de materia">
+        <span class="text-danger" asp-validation-for="Materia.Codigo"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="Materia.Descripcion"></label>
+        <input type="text" class="form-control" asp-for="Materia.Descripcion" placeholder="Ingrese su descripcion de materia">
+        <span class="text-danger" asp-validation-for="Materia.Descripcion"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="Materia.Habilitada"></label>
+        <input type="checkbox" class="form-control" asp-for="Materia.Habilitada">
+        <span class="text-danger" asp-validation-for="Materia.Habilitada"></span>
+    </div>
+    <button type="submit" class="btn btn-primary">Eliminar</button> <br />
+    <a asp-page="/Materias">Regresar a Materias</a>
+</form>

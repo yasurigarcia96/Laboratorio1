@@ -1,0 +1,4 @@
+C:\Users\Dev\source\repos\Laboratorio\Laboratorio.Data\bin\Debug\netcoreapp3.1\Laboratorio.Models.dll
+C:\Users\Dev\source\repos\Laboratorio\Laboratorio.Data\obj\Debug\netcoreapp3.1\Laboratorio.Data.csprojAssemblyReference.cache
+C:\Users\Dev\source\repos\Laboratorio\Laboratorio.Data\obj\Debug\netcoreapp3.1\Laboratorio.Data.AssemblyInfoInputs.cache
+C:\Users\Dev\source\repos\Laboratorio\Laboratorio.Data\obj\Debug\netcoreapp3.1\Laboratorio.Data.AssemblyInfo.cs
